@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080f1b">
+  <meta name="description" content="Portofolio Luhur Ramadani Suryana: WebGIS, spatial analytics, pemetaan 3D, dan mobile geospatial engineering. Studi kasus, dokumentasi proyek, dan demonstrasi interaktif.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Luhur Ramadani Suryana | Geospatial Portfolio">
+  <meta property="og:description" content="From spatial data to intelligent experiences — WebGIS, spatial analysis, surveying and mobile applications.">
+  <meta property="og:image" content="assets/og-cover.svg">
+  <title>Luhur Ramadani Suryana — Geospatial Portfolio</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/projects.js"></script>
+  <script defer src="js/main.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header" id="top">
+    <nav class="container navbar" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Luhur Ramadani Suryana — Home"><span class="brand-symbol" aria-hidden="true"><span></span><span></span><span></span><span></span></span><span>LHUR<span class="brand-dot">.</span><small>GEO / SYSTEMS</small></span></a>
+      <div class="nav-links" id="nav-links">
+        <a href="#work" data-i18n="navWork">Projects</a>
+        <a href="#approach" data-i18n="navApproach">Approach</a>
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#contact" data-i18n="navContact">Contact</a>
+      </div>
+      <div class="nav-actions">
+        <button class="lang-switch" id="language-toggle" type="button" aria-label="Switch language"><span id="language-label">EN</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m7 10 5 5 5-5"/></svg></button>
+        <a class="nav-github" href="https://github.com/lhrrks" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation" aria-controls="nav-links" aria-expanded="false"><span></span><span></span><span></span></button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow hero-eyebrow"><span class="pulse-dot"></span><span data-i18n="heroEyebrow">GEOSPATIAL ENGINEERING · YOGYAKARTA</span></div>
+        <h1 id="hero-title"><span data-i18n="heroTitle1">Spatial data.</span><br><em data-i18n="heroTitle2">Real-world impact.</em></h1>
+        <p class="hero-description" data-i18n="heroDescription">Saya membangun pengalaman geospasial yang menghubungkan analisis spasial, pemetaan digital, dan pengembangan aplikasi—dari data mentah menuju informasi yang bisa digunakan.</p>
+        <div class="hero-buttons"><a href="#work" class="button button-primary"><span data-i18n="explore">Explore projects</span><span aria-hidden="true">↗</span></a><a href="demos/risk.html" class="button button-ghost"><span class="play-icon">▶</span><span data-i18n="tryDemo">Try interactive demo</span></a></div>
+        <div class="hero-footnote"><span class="mini-line"></span><span data-i18n="heroNote">D-4 Sistem Informasi Geografis · Universitas Gadjah Mada</span></div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="hero-orbit orbit-one"></div><div class="hero-orbit orbit-two"></div>
+        <div class="art-corner top-left"></div><div class="art-corner bottom-right"></div>
+        <div class="art-head"><span>GEOSPATIAL / LAB</span><span>07°46′ S / 110°22′ E</span></div>
+        <svg class="hero-map" viewBox="0 0 580 475" xmlns="http://www.w3.org/2000/svg">
+          <defs><pattern id="grid" width="29" height="29" patternUnits="userSpaceOnUse"><path d="M29 0H0V29" fill="none" stroke="#7993a8" stroke-opacity=".14" stroke-width=".9"/></pattern><linearGradient id="terrain" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#223b3f"/><stop offset="1" stop-color="#0d1b29"/></linearGradient><linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ccfc89"/><stop offset="1" stop-color="#5ecca0"/></linearGradient></defs>
+          <rect width="580" height="475" fill="url(#grid)"/>
+          <path d="M68 304C97 237 154 230 174 183S269 129 325 155s62 1 110-7 96 60 88 124-58 110-137 127-135-27-196-13-140-27-122-82Z" fill="url(#terrain)" stroke="#587e82" stroke-opacity=".7" stroke-width="1.6"/>
+          <g fill="none" stroke="#79a494" stroke-opacity=".52" stroke-width="1.2"><path d="M100 307c28-62 89-56 111-105s77-32 125-20 65-17 111 10 49 50 23 94-83 81-132 66-81-4-125 15-129-12-113-60Z"/><path d="M126 304c37-55 85-58 111-89s78-16 111-8 75-8 91 28-12 79-74 86-88-12-140 22-112-3-99-39Z"/><path d="M154 295c26-38 82-45 101-63s57-13 94 4 56-13 63 24-47 39-72 42-79-5-109 18-105 8-77-25Z"/><path d="M187 290c20-30 60-22 87-41s61 12 95 12 24 34-28 28-71-1-95 15-72 14-49-14Z"/></g>
+          <path d="M87 355 161 298 232 332 295 247 365 284 479 188" fill="none" stroke="#cdfa92" stroke-opacity=".22" stroke-width="10" stroke-linecap="round"/>
+          <path d="M87 355 161 298 232 332 295 247 365 284 479 188" fill="none" stroke="#c6ff83" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="5 8"/>
+          <path d="M68 132 154 158 218 113 338 126 431 83 503 127" fill="none" stroke="#7ba9db" stroke-opacity=".45" stroke-width="1.8"/>
+          <g fill="#b6f884" stroke="#07121a" stroke-width="4"><circle cx="87" cy="355" r="7"/><circle cx="232" cy="332" r="7"/><circle cx="365" cy="284" r="7"/><circle cx="479" cy="188" r="7"/></g><circle cx="295" cy="247" r="13" fill="none" stroke="#c2ff93" stroke-opacity=".45"/><circle cx="295" cy="247" r="5" fill="#d4ffae"/>
+          <g fill="#719ab7"><circle cx="68" cy="132" r="5"/><circle cx="218" cy="113" r="5"/><circle cx="431" cy="83" r="5"/><circle cx="503" cy="127" r="5"/></g>
+          <path d="M295 229v-43m-5 5 5-6 5 6" stroke="#d9fe9d" stroke-width="1.7" fill="none"/>
+          <rect x="296" y="178" width="138" height="32" rx="5" fill="#142a2d" stroke="#4b846d"/><text x="308" y="198" font-size="11" font-family="monospace" fill="#d2ffaa">SPATIAL FEATURE / 01</text>
+          <g fill="#8ba9b6" font-size="9" font-family="monospace"><text x="34" y="33">38.47 E</text><text x="455" y="444">LAYER CONTROL / ON</text><text x="32" y="447">PROCESSING...</text></g>
+        </svg>
+        <div class="art-legend"><span><b class="legend-dot lime"></b> SPATIAL ANALYSIS</span><span><b class="legend-dot blue"></b> WEB MAPPING</span><span>FIG. 001</span></div>
+        <div class="floating-card"><span class="floating-mini">ACTIVE DOMAINS</span><strong>04<span> / 04</span></strong><span class="floating-bottom">GIS · DEV · 3D · MOBILE</span></div>
+      </div>
+    </section>
+
+    <section class="metrics-wrap"><div class="container metrics"><div><span class="metric-value">04</span><span class="metric-text" data-i18n="metricDomains">Core focus areas</span></div><div><span class="metric-value">02</span><span class="metric-text" data-i18n="metricEvidence">Documented WebGIS projects</span></div><div><span class="metric-value">02</span><span class="metric-text" data-i18n="metricDemos">Interactive algorithm demos</span></div><div class="metric-quote"><span class="mini-line"></span><span data-i18n="metricQuote">From spatial problems to usable systems.</span></div></div></section>
+
+    <section class="work-section container section" id="work" aria-labelledby="work-title">
+      <div class="section-head"><div><span class="section-kicker"><span class="section-index">01 /</span> <span data-i18n="workKicker">SELECTED WORK</span></span><h2 id="work-title" data-i18n="workTitle">Selected projects<span class="accent-dot">.</span></h2></div><p data-i18n="workDescription">Studi kasus terstruktur—proyek yang terdokumentasi dibedakan secara jelas dari konsep, simulasi, dan pengembangan lanjutan.</p></div>
+      <div class="filter-row" role="group" aria-label="Project categories"><button class="filter active" data-filter="all" data-i18n="filterAll" aria-pressed="true">All projects</button><button class="filter" data-filter="web" aria-pressed="false">WebGIS</button><button class="filter" data-filter="analytics" aria-pressed="false">GeoAI / Analytics</button><button class="filter" data-filter="survey" aria-pressed="false">3D / Survey</button><button class="filter" data-filter="mobile" aria-pressed="false">Mobile GIS</button><span class="filter-count" id="filter-count">06 PROJECTS</span></div>
+      <div class="project-grid" id="project-grid" aria-live="polite"></div>
+      <div class="work-bottom"><div class="work-bottom-icon">↳</div><p data-i18n="workFootnote">Setiap studi kasus memuat Situation, Task, Action, Result (STAR), bukti yang tersedia, serta batasan yang perlu dibaca sebelum menginterpretasikan hasil.</p><a href="https://github.com/lhrrks?tab=repositories" target="_blank" rel="noopener noreferrer"><span data-i18n="seeRepositories">See GitHub repositories</span> ↗</a></div>
+    </section>
+
+    <section class="demos-band" id="demos"><div class="container section demos-inner"><div class="section-head"><div><span class="section-kicker"><span class="section-index">02 /</span> <span data-i18n="labKicker">PLAYGROUND</span></span><h2 data-i18n="labTitle">Working prototypes<span class="accent-dot">.</span></h2></div><p data-i18n="labDescription">Dua mini-aplikasi yang benar-benar menjalankan perhitungan. Seluruh data contoh bersifat sintetis, bukan hasil prediksi atau pengukuran lapangan.</p></div><div class="demo-grid"><a class="demo-card" href="demos/risk.html"><span class="demo-top"><span class="status-green"><span class="pulse-dot"></span> INTERACTIVE</span><span>01 ↗</span></span><div class="demo-visual demo-risk"><div class="risk-squares"><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div><div class="demo-visual-stat"><span>WEIGHTED INDEX</span><strong>0.72</strong><small>DEMO DATA</small></div></div><div class="demo-info"><span class="demo-meta">SPATIAL MULTI-CRITERIA ANALYSIS</span><h3 data-i18n="riskDemoTitle">Fire-risk scoring lab</h3><p data-i18n="riskDemoDesc">Ubah bobot parameter, jalankan skoring, dan lihat bagaimana klasifikasi setiap sel berubah.</p><span class="demo-cta"><span data-i18n="openDemo">Open interactive demo</span><span>↗</span></span></div></a><a class="demo-card" href="demos/transit.html"><span class="demo-top"><span class="status-green"><span class="pulse-dot"></span> INTERACTIVE</span><span>02 ↗</span></span><div class="demo-visual demo-transit"><svg viewBox="0 0 400 190" aria-hidden="true"><g stroke="#58738a" stroke-width="3" fill="none" opacity=".6"><path d="M40 146 135 48 239 105 356 32M40 146 161 154 239 105M135 48 356 32M161 154 356 32"/></g><path d="M40 146 135 48 239 105 356 32" stroke="#c6fb8b" stroke-width="6" fill="none" stroke-linecap="round"/><g fill="#b7ec8d" stroke="#0d1b29" stroke-width="5"><circle cx="40" cy="146" r="9"/><circle cx="135" cy="48" r="9"/><circle cx="239" cy="105" r="9"/><circle cx="356" cy="32" r="9"/></g><g fill="#86a1b4"><circle cx="161" cy="154" r="7"/></g><g fill="#c9d6e1" font-size="12" font-family="monospace"><text x="22" y="174">A</text><text x="122" y="29">B</text><text x="249" y="130">C</text><text x="364" y="24">D</text><text x="168" y="175">E</text></g></svg><div class="transit-pill">SHORTEST PATH <b>✓</b></div></div><div class="demo-info"><span class="demo-meta">GRAPH ALGORITHMS / LOCATION INTELLIGENCE</span><h3 data-i18n="routeDemoTitle">Station routing lab</h3><p data-i18n="routeDemoDesc">Pilih titik asal dan tujuan, cari rute terpendek dengan Dijkstra, dan hitung ETA simulasi.</p><span class="demo-cta"><span data-i18n="openDemo">Open interactive demo</span><span>↗</span></span></div></a></div></div></section>
+
+    <section class="approach-section container section" id="approach"><div class="section-head"><div><span class="section-kicker"><span class="section-index">03 /</span> <span data-i18n="processKicker">WORKFLOW</span></span><h2 data-i18n="processTitle">Built for the full pipeline<span class="accent-dot">.</span></h2></div><p data-i18n="processDesc">Portofolio ini menekankan proses yang dapat diulang, bukan hanya peta yang tampak jadi.</p></div><div class="workflow"><div class="workflow-item"><span class="workflow-num">01</span><div class="workflow-icon">⌁</div><h3 data-i18n="step1">Capture & source</h3><p data-i18n="step1Desc">GNSS, citra, foto udara, data vektor dan tabel.</p></div><div class="workflow-item"><span class="workflow-num">02</span><div class="workflow-icon">⊞</div><h3 data-i18n="step2">Prepare & validate</h3><p data-i18n="step2Desc">Proyeksi, struktur atribut, kualitas dan konsistensi data.</p></div><div class="workflow-item"><span class="workflow-num">03</span><div class="workflow-icon">◈</div><h3 data-i18n="step3">Analyze & model</h3><p data-i18n="step3Desc">Klasifikasi, analisis raster, jaringan dan otomasi.</p></div><div class="workflow-item"><span class="workflow-num">04</span><div class="workflow-icon">↗</div><h3 data-i18n="step4">Build & communicate</h3><p data-i18n="step4Desc">WebGIS, dokumentasi, visualisasi dan aplikasi.</p></div></div></section>
+
+    <section class="about-section" id="about"><div class="container about-grid"><div class="about-visual"><span class="about-visual-top">FIELD NOTES / 2026</span><div class="about-figure"><svg viewBox="0 0 500 410" aria-hidden="true"><defs><pattern id="aboutgrid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" stroke="#b7c99a" stroke-opacity=".22" fill="none"/></pattern></defs><rect width="500" height="410" fill="url(#aboutgrid)"/><g fill="none" stroke="#b1c5ad" stroke-width="1.3" opacity=".6"><path d="M15 340Q119 223 227 268T490 110"/><path d="M-10 311Q96 189 221 233T520 87"/><path d="M-20 283Q100 162 216 201T515 64"/><path d="M-20 254Q91 124 222 173T530 33"/><path d="M-10 228Q98 91 224 147T520-4"/><path d="M-5 372Q103 251 229 290T520 145"/><path d="M-5 397Q106 277 244 316T522 170"/></g><circle cx="252" cy="215" r="97" fill="none" stroke="#cdff86" stroke-opacity=".4" stroke-width="1" stroke-dasharray="4 9"/><circle cx="252" cy="215" r="60" fill="none" stroke="#cdff86" stroke-opacity=".6" stroke-width="1"/><path d="M252 105v220M142 215h220" stroke="#d0f8a2" stroke-opacity=".3"/><circle cx="252" cy="215" r="13" fill="#d0ff99"/><circle cx="252" cy="215" r="3" fill="#15251e"/><path d="m252 215 124-95" stroke="#d0ff99" stroke-width="2" stroke-dasharray="7 9"/><rect x="313" y="103" rx="4" width="143" height="35" fill="#1d342a" stroke="#86b46e"/><text x="326" y="125" fill="#d1ffa4" font-size="11" font-family="monospace">DATA → INSIGHT</text></svg></div><div class="about-visual-bottom"><span>THE GEO SYSTEMS MINDSET</span><span>110.37 / -7.77</span></div></div><div class="about-content"><span class="section-kicker"><span class="section-index">04 /</span> <span data-i18n="aboutKicker">ABOUT ME</span></span><h2 data-i18n="aboutTitle">Curious about place.<br>Driven by systems.</h2><p data-i18n="aboutP1">Saya Luhur Ramadani Suryana, mahasiswa D-4 Sistem Informasi Geografis di Sekolah Vokasi Universitas Gadjah Mada. Ketertarikan saya ada pada titik temu pengolahan data spasial, pemrograman, dan pemetaan terapan.</p><p data-i18n="aboutP2">Melalui praktikum dan pengembangan konsep, saya mengeksplorasi bagaimana data lapangan, penginderaan jauh, dan perangkat lunak dapat diintegrasikan menjadi produk geospasial yang lebih mudah digunakan dan diuji.</p><div class="stack-groups"><div class="stack-block"><span>GIS / REMOTE SENSING</span><p>ArcGIS Pro · QGIS · Google Earth Engine · GNSS · SfM</p></div><div class="stack-block"><span>PROGRAMMING / WEB</span><p>Python · JavaScript · Leaflet · HTML/CSS · PHP · SQL · Android / Kotlin</p></div><div class="stack-block"><span>WORKFLOW / DELIVERY</span><p>GeoJSON · Git / GitHub · GitHub Pages · Spatial QA · Documentation</p></div></div></div></div></section>
+
+    <section class="contact-section container section" id="contact"><div class="contact-layout"><div><span class="section-kicker"><span class="section-index">05 /</span> <span data-i18n="contactKicker">CONNECT</span></span><h2 data-i18n="contactTitle">Have a spatial problem?<br><em>Let's build something useful.</em></h2><p data-i18n="contactDesc">Lihat kode dan dokumentasi proyek saya atau diskusikan ide pemetaan, analisis spasial, dan WebGIS melalui GitHub.</p></div><div class="contact-actions"><a class="button button-primary" href="https://github.com/lhrrks" target="_blank" rel="noopener noreferrer"><span data-i18n="contactGithub">Visit my GitHub</span><span aria-hidden="true">↗</span></a><a class="contact-textlink" href="#work"><span data-i18n="backToProjects">Back to selected work</span> ↗</a></div></div><div class="contact-mono">[ 07°46′ S · 110°22′ E ] <span>LOCAL THINKING / GLOBAL STANDARDS</span></div></section>
+  </main>
+
+  <footer class="footer"><div class="container footer-inner"><a class="footer-brand" href="#top">LHUR<span>.</span></a><span>© <span id="year">2026</span> Luhur Ramadani Suryana</span><span data-i18n="footerNote">Evidence-first geospatial portfolio.</span><a href="#top" data-i18n="backToTop">Back to top ↑</a></div></footer>
+
+  <dialog class="case-dialog" id="case-dialog" aria-labelledby="case-title"><div class="dialog-panel"><button class="dialog-close" type="button" aria-label="Close case study" id="case-close">×</button><div id="case-content"></div></div></dialog>
+</body>
+</html>
